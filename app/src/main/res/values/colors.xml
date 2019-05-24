@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="gray">#9B9B9B</color>
+    <color name="gray_light">#DDD9D9</color>
+    <color name="green_light">#AAD8D1</color>
+    <color name="red_light">#DDAABA</color>
+    <color name="orange_light">#ECB8AE</color>
+    <color name="maroon_light">#D3A3DF</color>
 </resources>

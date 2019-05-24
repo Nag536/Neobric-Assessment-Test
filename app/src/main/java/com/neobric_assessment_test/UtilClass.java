@@ -34,7 +34,7 @@ class UtilClass {
             "\t\"lastName\": \"Singam\",\n" +
             "\t\"messageID\": 1004,\n" +
             "\t\"content\": \"<giphy|https://media3.giphy.com/media/3FQ87l4tXAZWGvV3yY/giphy.gif:480X206:360X155:https://media3.giphy.com/media/3FQ87l4tXAZWGvV3yY/giphy-downsized_s.gif>\",\n" +
-            "\t\"messageType\": \"CHAT\",\n" +
+            "\t\"messageType\": \"CHATGIPHY\",\n" +
             "\t\"id\": 4,\n" +
             "\t\"firstName\": \"Four\"\n" +
             "},\n" +
@@ -42,7 +42,7 @@ class UtilClass {
             "\t\"lastName\": \"Singam\",\n" +
             "\t\"messageID\": 1005,\n" +
             "\t\"content\": \":battery::tractor::sweat_smile::helicopter::cricket_game:\",\n" +
-            "\t\"messageType\": \"CHAT\",\n" +
+            "\t\"messageType\": \"CHATEMOJI\",\n" +
             "\t\"id\": 5,\n" +
             "\t\"firstName\": \"Five\"\n" +
             "}]";

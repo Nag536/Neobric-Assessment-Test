@@ -12,9 +12,10 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+
 public class MainActivity extends AppCompatActivity {
     private ArrayList<ItemsModelClass> sourceDataArray;
-    private ItemsAdapter mAdapter;
+    private ChatItemsAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        mAdapter = new ItemsAdapter(MainActivity.this,
+        mAdapter = new ChatItemsAdapter(MainActivity.this,
                 sourceDataArray);
         recyclerView.setAdapter(mAdapter);
 
